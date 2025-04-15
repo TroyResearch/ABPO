@@ -9,7 +9,7 @@ ABPO requires:
 You can install ABPO through the following steps:
 ```bash
 # clone ABPO repository
-git clone https://github.com//.git
+git clone https://github.com/TroyResearch/ABPO.git
 cd ABPO
 # create conda environment
 conda env create -f gops_environment.yml
@@ -25,11 +25,11 @@ The tutorials and API documentation are hosted on [gops.readthedocs.io](https://
 This is an example of running finite-horizon Approximate Dynamic Programming (FHADP) on inverted double pendulum environment. 
 Train the policy by running:
 ```bash
-python example_train/fhadp/fhadp_mlp_idpendulum_serial.py
+python example_train/fhadp/fhadp2_mlp_semitruckpu7dof_serial.py
 ```
 After training, test the policy by running:
 ```bash
-python example_run/run_idp_fhadp.py
+python example_run/run_semitruckpu7dof_abpo.py
 ```
 
 
