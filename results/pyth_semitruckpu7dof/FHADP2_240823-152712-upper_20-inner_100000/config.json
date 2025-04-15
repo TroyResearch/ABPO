@@ -1,0 +1,69 @@
+{
+    "env_id": "pyth_semitruckpu7dof",
+    "cost_paras": [
+        1,
+        0.9,
+        0.8,
+        0.5,
+        0.5,
+        0.5,
+        0.5,
+        0.4,
+        2.0
+    ],
+    "algorithm": "FHADP2",
+    "pre_horizon": 100,
+    "enable_cuda": false,
+    "is_render": false,
+    "is_adversary": false,
+    "value_func_type": "MLP",
+    "policy_func_name": "FiniteHorizonFullPolicy",
+    "policy_func_type": "MLP",
+    "policy_act_distribution": "default",
+    "policy_hidden_sizes": [
+        256,
+        256
+    ],
+    "policy_hidden_activation": "elu",
+    "policy_learning_rate": 3e-05,
+    "cost_learning_rate": 1e-05,
+    "trainer": "off_serial_trainer",
+    "max_iteration": 100000,
+    "max_iteration_upper": 20,
+    "ini_network_dir": null,
+    "buffer_name": "replay_buffer",
+    "buffer_warm_size": 1000,
+    "buffer_max_size": 100000,
+    "replay_batch_size": 100,
+    "sample_interval": 1,
+    "sampler_name": "off_sampler",
+    "sample_batch_size": 256,
+    "noise_params": {
+        "mean": [
+            0.0
+        ],
+        "std": [
+            0.20000000298023224
+        ]
+    },
+    "evaluator_name": "evaluator",
+    "num_eval_episode": 100,
+    "eval_interval": 100,
+    "eval_save": false,
+    "save_folder": null,
+    "apprfunc_save_interval": 10000,
+    "log_save_interval": 2000,
+    "use_gpu": false,
+    "batch_size_per_sampler": 256,
+    "obsv_dim": 615,
+    "action_type": "continu",
+    "action_dim": 1,
+    "action_high_limit": [
+        0.5
+    ],
+    "action_low_limit": [
+        -0.5
+    ],
+    "cnn_shared": false,
+    "seed": 512217757
+}

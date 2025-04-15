@@ -1,0 +1,13 @@
+torch
+numpy
+ray>=1.0.0
+gym
+pygame
+box2d
+pandas
+tensorboard
+matplotlib
+pyglet
+seaborn
+scipy
+openpyxl

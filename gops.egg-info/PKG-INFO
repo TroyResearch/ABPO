@@ -1,0 +1,20 @@
+Metadata-Version: 2.1
+Name: gops
+Version: 1.1.0
+Summary: General Optimal control Problem Solver (GOPS)
+Home-page: https://gitee.com/tsinghua-university-iDLab-GOPS/gops
+Author: Intelligent Driving Lab (iDLab)
+Requires-Python: >=3.6
+Requires-Dist: torch
+Requires-Dist: numpy
+Requires-Dist: ray>=1.0.0
+Requires-Dist: gym
+Requires-Dist: pygame
+Requires-Dist: box2d
+Requires-Dist: pandas
+Requires-Dist: tensorboard
+Requires-Dist: matplotlib
+Requires-Dist: pyglet
+Requires-Dist: seaborn
+Requires-Dist: scipy
+Requires-Dist: openpyxl
